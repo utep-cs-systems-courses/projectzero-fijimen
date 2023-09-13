@@ -26,3 +26,4 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//hint hint, call the methods above and add 3 or 5 to the square
