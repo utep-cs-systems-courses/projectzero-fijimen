@@ -25,5 +25,8 @@ void print_triangle(int leftCol, int size)
     putchar('\n');
   }
 }
-
-//hint hint, call the methods above and add 3 or 5 to the square
+void print_arrow(int leftCol, int size)
+{
+  print_triangle(leftCol / 2, size);
+  print_square(leftCol, size);
+}
